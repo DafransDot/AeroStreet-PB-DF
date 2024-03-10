@@ -15,24 +15,24 @@ public class Detail implements Parcelable {
     public String getMerek() {
         return merek;
     }
-    public void setMerek(String merek){
-        this.merek = merek;
+    public void setMerek(String Merek){
+        merek = Merek;
     }
 
     public String getAcara(){
         return acara;
     }
 
-    public void setAcara(String acara) {
-        this.acara = acara;
+    public void setAcara(String Acara) {
+        acara = Acara;
     }
 
     public String getTinggiSepatu() {
         return tinggiSepatu;
     }
 
-    public void setTinggiSepatu(String tinggiSepatu) {
-        this.tinggiSepatu = tinggiSepatu;
+    public void setTinggiSepatu(String TinggiSepatu) {
+        tinggiSepatu = TinggiSepatu;
     }
 
     public String getStok() {
@@ -47,16 +47,16 @@ public class Detail implements Parcelable {
         return dikirimDari;
     }
 
-    public void setDikirimDari(String dikirimDari) {
-        this.dikirimDari = dikirimDari;
+    public void setDikirimDari(String DikirimDari) {
+        dikirimDari = DikirimDari;
     }
 
     public String getGambar() {
         return gambar;
     }
 
-    public void setGambar(String gambar) {
-        this.gambar = gambar;
+    public void setGambar(String Gambar) {
+        gambar = Gambar;
     }
 
     protected Detail(Parcel in) {
