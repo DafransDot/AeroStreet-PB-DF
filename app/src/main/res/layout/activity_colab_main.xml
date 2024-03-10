@@ -45,7 +45,7 @@
                             android:text="Aerostreet 37-44 Hoops High Gum Off White Off White"/>
 
                         <Button
-                            android:id="@+id/btnDetailCasual"
+                            android:id="@+id/btnDetailColabone"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="30dp"
@@ -117,7 +117,7 @@
                             android:text="Aerostreet 37-44 Hoops High Gum Off White Off White"/>
 
                         <Button
-                            android:id="@+id/btnDetailCasualtwo"
+                            android:id="@+id/btnDetailColabtwo"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="30dp"
@@ -188,7 +188,7 @@
                             android:text="Aerostreet 37-44 Hoops High Gum Off White Off White"/>
 
                         <Button
-                            android:id="@+id/btnDetailCasualthree"
+                            android:id="@+id/btnDetailColabthree"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="30dp"
@@ -259,7 +259,7 @@
                             android:text="Aerostreet 37-44 Hoops High Gum Off White Off White"/>
 
                         <Button
-                            android:id="@+id/btnDetailCasualfour"
+                            android:id="@+id/btnDetailColabfour"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="30dp"
@@ -330,7 +330,7 @@
                             android:text="Aerostreet 37-44 Hoops High Gum Off White Off White"/>
 
                         <Button
-                            android:id="@+id/btnDetailCasualfive"
+                            android:id="@+id/btnDetailColabfive"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="30dp"

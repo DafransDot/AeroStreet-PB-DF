@@ -12,8 +12,6 @@ import android.widget.ImageView;
 public class casualMain extends AppCompatActivity implements View.OnClickListener {
     private Button btnDetailCasualone, btnDetailCasualtwo, btnDetailCasualthree, btnDetailCasualfour, btnDetailCasualfive;
 
-    private ImageView ivCasualone,ivCasualtwo, ivCasualthree, ivCasualfour, ivCasualfive;
-
     @SuppressLint("MissingInflatedId")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,11 +23,6 @@ public class casualMain extends AppCompatActivity implements View.OnClickListene
         btnDetailCasualthree = findViewById(R.id.btnDetailCasualthree);
         btnDetailCasualfour = findViewById(R.id.btnDetailCasualfour);
         btnDetailCasualfive = findViewById(R.id.btnDetailCasualfive);
-        ivCasualone = findViewById(R.id.ivCasualone);
-        ivCasualtwo = findViewById(R.id.ivCasualtwo);
-        ivCasualthree = findViewById(R.id.ivCasualthree);
-        ivCasualfour= findViewById(R.id.ivCasualfour);
-        ivCasualfive = findViewById(R.id.ivCasualfive);
 
 
         btnDetailCasualone.setOnClickListener(this);
@@ -43,11 +36,11 @@ public class casualMain extends AppCompatActivity implements View.OnClickListene
     public void onClick(View v) {
       if (v.getId() == R.id.btnDetailCasualone) {
             Detail CasualOne = new Detail();
-            CasualOne.setMerek("");
-            CasualOne.setAcara("asdasdj");
-            CasualOne.setTinggiSepatu("");
-            CasualOne.setStok("");
-            CasualOne.setDikirimDari("");
+            CasualOne.setMerek("Aerostreet Hoops High Gum Off White Off White");
+            CasualOne.setAcara("Sepatu Sneakers Casual Aero Street 21JJ10");
+            CasualOne.setTinggiSepatu("37 - 44");
+            CasualOne.setStok("334");
+            CasualOne.setDikirimDari("KAB. KLATEN");
             CasualOne.setGambar("CasualOne");
 
             Intent intent = new Intent(casualMain.this, DetailMain.class);
@@ -55,11 +48,11 @@ public class casualMain extends AppCompatActivity implements View.OnClickListene
             startActivity(intent);
         } if (v.getId() == R.id.btnDetailCasualtwo) {
             Detail CasualTwo = new Detail();
-            CasualTwo.setMerek("");
-            CasualTwo.setAcara("asdasdj");
-            CasualTwo.setTinggiSepatu("");
-            CasualTwo.setStok("");
-            CasualTwo.setDikirimDari("");
+            CasualTwo.setMerek("Aerostreet Massive Basic Olive Natural");
+            CasualTwo.setAcara("Sneaker Casual Shoes");
+            CasualTwo.setTinggiSepatu("37-44 ");
+            CasualTwo.setStok("412");
+            CasualTwo.setDikirimDari("KAB. KLATEN");
             CasualTwo.setGambar("CasualTwo");
 
             Intent intent = new Intent(casualMain.this, DetailMain.class);
@@ -67,11 +60,11 @@ public class casualMain extends AppCompatActivity implements View.OnClickListene
             startActivity(intent);
         } if (v.getId() == R.id.btnDetailCasualthree) {
             Detail CasualThree = new Detail();
-            CasualThree.setMerek("");
-            CasualThree.setAcara("asdasdj");
-            CasualThree.setTinggiSepatu("");
-            CasualThree.setStok("");
-            CasualThree.setDikirimDari("");
+            CasualThree.setMerek("Aerostreet Massive Basic Hitam Natural");
+            CasualThree.setAcara("Sepatu Sneakers Casual");
+            CasualThree.setTinggiSepatu("37-44");
+            CasualThree.setStok("265");
+            CasualThree.setDikirimDari("KAB. KLATEN");
             CasualThree.setGambar("CasualThree");
 
             Intent intent = new Intent(casualMain.this, DetailMain.class);
@@ -79,11 +72,11 @@ public class casualMain extends AppCompatActivity implements View.OnClickListene
             startActivity(intent);
         } if (v.getId() == R.id.btnDetailCasualfour) {
             Detail CasualFour = new Detail();
-            CasualFour.setMerek("");
-            CasualFour.setAcara("asdasdj");
-            CasualFour.setTinggiSepatu("");
-            CasualFour.setStok("");
-            CasualFour.setDikirimDari("");
+            CasualFour.setMerek("Aerostreet Hoops Low Merah");
+            CasualFour.setAcara("Sepatu Sneakers Casual");
+            CasualFour.setTinggiSepatu("42");
+            CasualFour.setStok("129");
+            CasualFour.setDikirimDari("KAB. KLATEN");
             CasualFour.setGambar("CasualFour");
 
             Intent intent = new Intent(casualMain.this, DetailMain.class);
@@ -91,11 +84,11 @@ public class casualMain extends AppCompatActivity implements View.OnClickListene
             startActivity(intent);
         } if (v.getId() == R.id.btnDetailCasualfive) {
             Detail CasualFive = new Detail();
-            CasualFive.setMerek("");
-            CasualFive.setAcara("asdasdj");
-            CasualFive.setTinggiSepatu("");
-            CasualFive.setStok("");
-            CasualFive.setDikirimDari("");
+            CasualFive.setMerek("Aerostreet Hoops High Gum Olive");
+            CasualFive.setAcara("Sneakers Casual");
+            CasualFive.setTinggiSepatu("37 - 44");
+            CasualFive.setStok("234");
+            CasualFive.setDikirimDari("KAB. KLATEN");
             CasualFive.setGambar("CasualFive");
 
             Intent intent = new Intent(casualMain.this, DetailMain.class);

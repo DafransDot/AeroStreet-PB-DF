@@ -26,366 +26,374 @@
             android:layout_height="match_parent"
             android:orientation="vertical">
 
-    <HorizontalScrollView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="20dp">
-
-        <LinearLayout
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical">
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Aerostreet 37-44 Hoops High Gum Off White Off White"/>
-
-            <Button
-                android:id="@+id/btnDetailCasualone"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="30dp"
-                android:text="Detail"
-                android:textColor="@color/black"
-                android:backgroundTint="@color/material_on_surface_stroke"/>
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            >
-
-        <ImageView
-            android:id="@+id/ivCasualone"
-            android:layout_width="100dp"
-            android:layout_height="120dp"
-            app:srcCompat="@drawable/casual1_0"
-            android:layout_marginHorizontal="10dp"/>
-
-            <ImageView
-                android:id="@+id/imageView"
-                android:layout_width="100dp"
-                android:layout_marginHorizontal="10dp"
-                android:layout_height="120dp"
-                app:srcCompat="@drawable/casual1_2" />
-
-            <ImageView
-                android:id="@+id/imageView2"
-                android:layout_width="100dp"
-                android:layout_marginHorizontal="10dp"
-                android:layout_height="120dp"
-                android:layout_weight="1"
-                app:srcCompat="@drawable/casual1_3" />
-
-            <ImageView
-                android:id="@+id/imageView4"
-                android:layout_width="100dp"
-                android:layout_marginHorizontal="10dp"
-                android:layout_height="120dp"
-                android:layout_weight="1"
-                app:srcCompat="@drawable/casual1_5" />
-
-
-        </LinearLayout>
-
-
-        </LinearLayout>
-
-
-    </HorizontalScrollView>
-
-    <HorizontalScrollView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="20dp">
-
-        <LinearLayout
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical">
-            <LinearLayout
+            <HorizontalScrollView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal">
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Aerostreet 37-44 Hoops High Gum Off White Off White"/>
+                android:layout_marginTop="20dp">
 
-                <Button
-                    android:id="@+id/btnDetailCasualtwo"
-                    android:layout_width="wrap_content"
+                <LinearLayout
+                    android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="30dp"
-                    android:text="Detail"
-                    android:textColor="@color/black"
-                    android:backgroundTint="@color/material_on_surface_stroke"/>
-            </LinearLayout>
+                    android:orientation="vertical">
 
-            <LinearLayout
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Aerostreet 37-44 Hoops High Gum Off White Off White" />
+
+                        <Button
+                            android:id="@+id/btnDetailCasualone"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="30dp"
+                            android:backgroundTint="@color/material_on_surface_stroke"
+                            android:text="Detail"
+                            android:textColor="@color/black" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/ivCasualone"
+                            android:layout_width="100dp"
+                            android:layout_height="120dp"
+                            android:layout_marginHorizontal="10dp"
+                            app:srcCompat="@drawable/casual1_0" />
+
+                        <ImageView
+                            android:id="@+id/imageView"
+                            android:layout_width="100dp"
+                            android:layout_height="120dp"
+                            android:layout_marginHorizontal="10dp"
+                            app:srcCompat="@drawable/casual1_2" />
+
+                        <ImageView
+                            android:id="@+id/imageView2"
+                            android:layout_width="100dp"
+                            android:layout_height="120dp"
+                            android:layout_marginHorizontal="10dp"
+                            android:layout_weight="1"
+                            app:srcCompat="@drawable/casual1_3" />
+
+                        <ImageView
+                            android:id="@+id/imageView4"
+                            android:layout_width="100dp"
+                            android:layout_height="120dp"
+                            android:layout_marginHorizontal="10dp"
+                            android:layout_weight="1"
+                            app:srcCompat="@drawable/casual1_5" />
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+            </HorizontalScrollView>
+
+            <HorizontalScrollView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                >
+                android:layout_marginTop="20dp">
 
-                <ImageView
-                    android:id="@+id/ivCasualtwo"
-                    android:layout_width="100dp"
-                    android:layout_height="120dp"
-                    app:srcCompat="@drawable/casual2_1"
-                    android:layout_marginHorizontal="10dp"/>
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
 
-                <ImageView
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
 
-                    android:layout_width="100dp"
-                    android:layout_marginHorizontal="10dp"
-                    android:layout_height="120dp"
-                    app:srcCompat="@drawable/casual2_2" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Aerostreet Massive Basic Olive Natural" />
 
-                <ImageView
+                        <Button
+                            android:id="@+id/btnDetailCasualtwo"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="30dp"
+                            android:backgroundTint="@color/material_on_surface_stroke"
+                            android:text="Detail"
+                            android:textColor="@color/black" />
+                    </LinearLayout>
 
-                    android:layout_width="100dp"
-                    android:layout_marginHorizontal="10dp"
-                    android:layout_height="120dp"
-                    android:layout_weight="1"
-                    app:srcCompat="@drawable/casual2_3" />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
 
-                <ImageView
+                        <ImageView
+                            android:id="@+id/ivCasualtwo"
+                            android:layout_width="100dp"
+                            android:layout_height="120dp"
+                            android:layout_marginHorizontal="10dp"
+                            app:srcCompat="@drawable/casual2_1" />
 
-                    android:layout_width="100dp"
-                    android:layout_marginHorizontal="10dp"
-                    android:layout_height="120dp"
-                    android:layout_weight="1"
-                    app:srcCompat="@drawable/casual2_4" />
+                        <ImageView
+
+                            android:layout_width="100dp"
+                            android:layout_height="120dp"
+                            android:layout_marginHorizontal="10dp"
+                            app:srcCompat="@drawable/casual2_2" />
+
+                        <ImageView
+
+                            android:layout_width="100dp"
+                            android:layout_height="120dp"
+                            android:layout_marginHorizontal="10dp"
+                            android:layout_weight="1"
+                            app:srcCompat="@drawable/casual2_3" />
+
+                        <ImageView
+
+                            android:layout_width="100dp"
+                            android:layout_height="120dp"
+                            android:layout_marginHorizontal="10dp"
+                            android:layout_weight="1"
+                            app:srcCompat="@drawable/casual2_4" />
 
 
-            </LinearLayout>
+                    </LinearLayout>
 
 
-        </LinearLayout>
+                </LinearLayout>
 
 
-    </HorizontalScrollView>
-    <HorizontalScrollView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="20dp">
+            </HorizontalScrollView>
 
-        <LinearLayout
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical">
-            <LinearLayout
+            <HorizontalScrollView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal">
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Aerostreet 37-44 Hoops High Gum Off White Off White"/>
+                android:layout_marginTop="20dp">
 
-                <Button
-                    android:id="@+id/btnDetailCasualthree"
-                    android:layout_width="wrap_content"
+                <LinearLayout
+                    android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="30dp"
-                    android:text="Detail"
-                    android:textColor="@color/black"
-                    android:backgroundTint="@color/material_on_surface_stroke"/>
-            </LinearLayout>
+                    android:orientation="vertical">
 
-            <LinearLayout
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Aerostreet Massive Basic Hitam Natural" />
+
+                        <Button
+                            android:id="@+id/btnDetailCasualthree"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="30dp"
+                            android:backgroundTint="@color/material_on_surface_stroke"
+                            android:text="Detail"
+                            android:textColor="@color/black" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="100dp"
+                            android:layout_height="120dp"
+                            android:layout_marginHorizontal="10dp"
+                            app:srcCompat="@drawable/casual3_4" />
+
+                        <ImageView
+                            android:id="@+id/ivCasualthree"
+                            android:layout_width="100dp"
+                            android:layout_height="120dp"
+                            android:layout_marginHorizontal="10dp"
+                            app:srcCompat="@drawable/casual3_3" />
+
+                        <ImageView
+
+                            android:layout_width="100dp"
+                            android:layout_height="120dp"
+                            android:layout_marginHorizontal="10dp"
+                            android:layout_weight="1"
+                            app:srcCompat="@drawable/casual3_2" />
+
+                        <ImageView
+
+                            android:layout_width="100dp"
+                            android:layout_height="120dp"
+                            android:layout_marginHorizontal="10dp"
+                            android:layout_weight="1"
+                            app:srcCompat="@drawable/casual3_4" />
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+            </HorizontalScrollView>
+
+            <HorizontalScrollView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                >
+                android:layout_marginTop="20dp">
 
-                <ImageView
-                    android:layout_width="100dp"
-                    android:layout_height="120dp"
-                    app:srcCompat="@drawable/casual3_4"
-                    android:layout_marginHorizontal="10dp"/>
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
 
-                <ImageView
-                    android:id="@+id/ivCasualthree"
-                    android:layout_width="100dp"
-                    android:layout_marginHorizontal="10dp"
-                    android:layout_height="120dp"
-                    app:srcCompat="@drawable/casual3_3" />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
 
-                <ImageView
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Aerostreet Hoops Low hitam" />
 
-                    android:layout_width="100dp"
-                    android:layout_marginHorizontal="10dp"
-                    android:layout_height="120dp"
-                    android:layout_weight="1"
-                    app:srcCompat="@drawable/casual3_2" />
+                        <Button
+                            android:id="@+id/btnDetailCasualfour"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="30dp"
+                            android:backgroundTint="@color/material_on_surface_stroke"
+                            android:text="Detail"
+                            android:textColor="@color/black" />
+                    </LinearLayout>
 
-                <ImageView
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
 
-                    android:layout_width="100dp"
-                    android:layout_marginHorizontal="10dp"
-                    android:layout_height="120dp"
-                    android:layout_weight="1"
-                    app:srcCompat="@drawable/casual3_4" />
+                        <ImageView
+                            android:id="@+id/ivCasualfour"
+                            android:layout_width="100dp"
+                            android:layout_height="120dp"
+                            android:layout_marginHorizontal="10dp"
+                            app:srcCompat="@drawable/casual4_1" />
+
+                        <ImageView
+
+                            android:layout_width="100dp"
+                            android:layout_height="120dp"
+                            android:layout_marginHorizontal="10dp"
+                            app:srcCompat="@drawable/casual4_2" />
+
+                        <ImageView
+
+                            android:layout_width="100dp"
+                            android:layout_height="120dp"
+                            android:layout_marginHorizontal="10dp"
+                            android:layout_weight="1"
+                            app:srcCompat="@drawable/casual4_3" />
+
+                        <ImageView
+
+                            android:layout_width="100dp"
+                            android:layout_height="120dp"
+                            android:layout_marginHorizontal="10dp"
+                            android:layout_weight="1"
+                            app:srcCompat="@drawable/casual4_4" />
 
 
-            </LinearLayout>
+                    </LinearLayout>
 
 
-        </LinearLayout>
+                </LinearLayout>
 
 
-    </HorizontalScrollView>
-    <HorizontalScrollView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="20dp">
+            </HorizontalScrollView>
 
-        <LinearLayout
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical">
-            <LinearLayout
+            <HorizontalScrollView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal">
-                <TextView
-                    android:layout_width="wrap_content"
+                android:layout_marginTop="20dp">
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
-                    android:text="Aerostreet 37-44 Hoops High Gum Off White Off White"/>
+                    android:orientation="vertical">
 
-                <Button
-                    android:id="@+id/btnDetailCasualfour"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="30dp"
-                    android:text="Detail"
-                    android:textColor="@color/black"
-                    android:backgroundTint="@color/material_on_surface_stroke"/>
-            </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                >
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Aerostreet Hoops High Gum Olive" />
 
-                <ImageView
-                    android:id="@+id/ivCasualfour"
-                    android:layout_width="100dp"
-                    android:layout_height="120dp"
-                    app:srcCompat="@drawable/casual4_1"
-                    android:layout_marginHorizontal="10dp"/>
+                        <Button
+                            android:id="@+id/btnDetailCasualfive"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="30dp"
+                            android:backgroundTint="@color/material_on_surface_stroke"
+                            android:text="Detail"
+                            android:textColor="@color/black" />
+                    </LinearLayout>
 
-                <ImageView
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
 
-                    android:layout_width="100dp"
-                    android:layout_marginHorizontal="10dp"
-                    android:layout_height="120dp"
-                    app:srcCompat="@drawable/casual4_2" />
+                        <ImageView
+                            android:id="@+id/ivCasualfive"
+                            android:layout_width="100dp"
+                            android:layout_height="120dp"
+                            android:layout_marginHorizontal="10dp"
+                            app:srcCompat="@drawable/casual5_4" />
 
-                <ImageView
+                        <ImageView
 
-                    android:layout_width="100dp"
-                    android:layout_marginHorizontal="10dp"
-                    android:layout_height="120dp"
-                    android:layout_weight="1"
-                    app:srcCompat="@drawable/casual4_3" />
+                            android:layout_width="100dp"
+                            android:layout_height="120dp"
+                            android:layout_marginHorizontal="10dp"
+                            app:srcCompat="@drawable/casual5_1" />
 
-                <ImageView
+                        <ImageView
 
-                    android:layout_width="100dp"
-                    android:layout_marginHorizontal="10dp"
-                    android:layout_height="120dp"
-                    android:layout_weight="1"
-                    app:srcCompat="@drawable/casual4_4" />
+                            android:layout_width="100dp"
+                            android:layout_height="120dp"
+                            android:layout_marginHorizontal="10dp"
+                            android:layout_weight="1"
+                            app:srcCompat="@drawable/casual5_2" />
 
+                        <ImageView
 
-            </LinearLayout>
-
-
-        </LinearLayout>
-
-
-    </HorizontalScrollView>
-    <HorizontalScrollView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="20dp">
-
-        <LinearLayout
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical">
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Aerostreet 37-44 Hoops High Gum Off White Off White"/>
-
-                <Button
-                    android:id="@+id/btnDetailCasualfive"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="30dp"
-                    android:text="Detail"
-                    android:textColor="@color/black"
-                    android:backgroundTint="@color/material_on_surface_stroke"/>
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                >
-
-                <ImageView
-                    android:id="@+id/ivCasualfive"
-                    android:layout_width="100dp"
-                    android:layout_height="120dp"
-                    app:srcCompat="@drawable/casual5_4"
-                    android:layout_marginHorizontal="10dp"/>
-
-                <ImageView
-
-                    android:layout_width="100dp"
-                    android:layout_marginHorizontal="10dp"
-                    android:layout_height="120dp"
-                    app:srcCompat="@drawable/casual5_1" />
-
-                <ImageView
-
-                    android:layout_width="100dp"
-                    android:layout_marginHorizontal="10dp"
-                    android:layout_height="120dp"
-                    android:layout_weight="1"
-                    app:srcCompat="@drawable/casual5_2" />
-
-                <ImageView
-
-                    android:layout_width="100dp"
-                    android:layout_marginHorizontal="10dp"
-                    android:layout_height="120dp"
-                    android:layout_weight="1"
-                    app:srcCompat="@drawable/casual5_3" />
+                            android:layout_width="100dp"
+                            android:layout_height="120dp"
+                            android:layout_marginHorizontal="10dp"
+                            android:layout_weight="1"
+                            app:srcCompat="@drawable/casual5_3" />
 
 
-            </LinearLayout>
+                    </LinearLayout>
 
 
-        </LinearLayout>
+                </LinearLayout>
 
 
-    </HorizontalScrollView>
+            </HorizontalScrollView>
         </LinearLayout>
     </ScrollView>
 </LinearLayout>
