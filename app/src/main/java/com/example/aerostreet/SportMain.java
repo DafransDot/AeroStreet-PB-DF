@@ -34,11 +34,11 @@ public class SportMain extends AppCompatActivity implements View.OnClickListener
     public void onClick(View v) {
         if (v.getId() == R.id.btnDetailSportOne) {
             Detail SportOne = new Detail();
-            SportOne.setMerek("");
-            SportOne.setAcara("asdasdj");
-            SportOne.setTinggiSepatu("");
-            SportOne.setStok("");
-            SportOne.setDikirimDari("");
+            SportOne.setMerek("Aerostreet Osaka");
+            SportOne.setAcara("Sepatu Sneakers Sport ");
+            SportOne.setTinggiSepatu("37 - 45");
+            SportOne.setStok("400");
+            SportOne.setDikirimDari("KEL. KLATEN");
             SportOne.setGambar("CasualOne");
 
             Intent intent = new Intent(SportMain.this, DetailMain.class);
@@ -46,11 +46,11 @@ public class SportMain extends AppCompatActivity implements View.OnClickListener
             startActivity(intent);
         } if (v.getId() == R.id.btnDetailSporttwo) {
             Detail SportTwo = new Detail();
-            SportTwo.setMerek("");
-            SportTwo.setAcara("asdasdj");
-            SportTwo.setTinggiSepatu("");
-            SportTwo.setStok("");
-            SportTwo.setDikirimDari("");
+            SportTwo.setMerek("Aerostreet Queen Mocca Muda Mocca");
+            SportTwo.setAcara("Sepatu Sneakers Casual Sport");
+            SportTwo.setTinggiSepatu(" 37-40");
+            SportTwo.setStok("108");
+            SportTwo.setDikirimDari("KEL. KLATEN");
             SportTwo.setGambar("CasualTwo");
 
             Intent intent = new Intent(SportMain.this, DetailMain.class);
@@ -70,11 +70,11 @@ public class SportMain extends AppCompatActivity implements View.OnClickListener
             startActivity(intent);
         } if (v.getId() == R.id.btnDetailCasualfour) {
             Detail CasualFour = new Detail();
-            CasualFour.setMerek("");
-            CasualFour.setAcara("asdasdj");
-            CasualFour.setTinggiSepatu("");
-            CasualFour.setStok("");
-            CasualFour.setDikirimDari("");
+            CasualFour.setMerek("Aerostreet Hoops Putih Merah Hitam");
+            CasualFour.setAcara("Sepatu Sneakers Sport Pria Wanita");
+            CasualFour.setTinggiSepatu("39");
+            CasualFour.setStok("99");
+            CasualFour.setDikirimDari("KEL. KLATEN");
             CasualFour.setGambar("CasualFour");
 
             Intent intent = new Intent(SportMain.this, DetailMain.class);
